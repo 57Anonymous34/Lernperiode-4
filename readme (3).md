@@ -12,7 +12,7 @@
 ## 14.2: Explorativer Wegwerf-Prototyp
 
 - [ ] ...Projektplannung
-- [ ] ...Von einer Folie zu einer anderen Folie vechseln und wieder zurück
+- [X] ...Von einer Folie zu einer anderen Folie vechseln und wieder zurück
 
 ✍️ Heute habe ich... (50-100 Wörter)
 Heute habe ich mich überlegt was ich bei dieser Lernperiode machen möchte. Ich wollte ein Schach Spiel programmieren, habe dann aber gemerkt das es für mich viel zu Kolpiziert ist. Dann habe ich mich für Mnesch ärgere dich nicht entschieden, da habe ich auch schnell gemerkt das es auch zu Kompliziert ist. Am Schluss habe ich mich für ein GameParadies entschieden. Der Benutzer kann sich entschieden welches Spiel er spilene will.(Z.B. Ping Pong, Tetris etc.)
@@ -21,17 +21,21 @@ Heute habe ich mich überlegt was ich bei dieser Lernperiode machen möchte. Ich
 
 ## 21.2: Explorativer Wegwerf-Prototyp
 
-- [ ] ...Ein Plann zeichnen(Strukturiertes vorgehen) (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
-- [ ] ...Mich entscheiden was für Spiele ich programmieren werden.
-- [ ] ...Mit dem ersten Spiel Anfangen.
+- [X] ...Ein Plann zeichnen(Strukturiertes vorgehen) (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
+- [X] ...Mich entscheiden was für Spiele ich programmieren werden.
+- [X] ...Mit dem ersten Spiel Anfangen.
 - [ ] ...Willkomensseite verschöner(passendes Bild von Google nehmen(falls es geht))
 
 ✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich Weiter an meinem Projekt gearbeitet. Ich weiss was für Spiele ich programmieren werde. Heute habe ich mit TictacToe angefangen. Ich kann jetzt von der Willkommensseite zur Spielauswahlseite gehen und wieder zurück.
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 28.2: Kern-Funktionalität
-
+- [ ] TicTacToe so progarmmieren das man von Vorrne beginnen kann.
+- [ ] Nach einem Gewinn bekommt man einen Punkt.(Es wird auch angezeigt wer gewonnen hat.(z.B. "X hat gewonnen")
+- [ ] Ein Bild von Google ins Willkomensseite hinzufügen.
+- [ ] Neues Spiel Hinzufügen in der Bibliothek(Man sollte hin und her gehen zwischen den Folien von dem neuen Spiel und der Bibliothek(SpielAuswahl)).
 ## 7.3: Kern-Funktionalität
 
 ## 14.3: Architektur ausbauen

@@ -32,11 +32,21 @@ Heute habe ich Weiter an meinem Projekt gearbeitet. Ich weiss was für Spiele ic
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 28.2: Kern-Funktionalität
-- [ ] TicTacToe so progarmmieren das man von Vorrne beginnen kann.
-- [ ] Nach einem Gewinn bekommt man einen Punkt.(Es wird auch angezeigt wer gewonnen hat.(z.B. "X hat gewonnen")
-- [ ] Ein Bild von Google ins Willkomensseite hinzufügen.
+- [x] TicTacToe so progarmmieren das man von Vorrne beginnen kann.
+- [x] Nach einem Gewinn bekommt man einen Punkt.(Es wird auch angezeigt wer gewonnen hat.(z.B. "X hat gewonnen")
+- [x] Ein Bild von Google ins Willkomensseite hinzufügen.
 - [ ] Neues Spiel Hinzufügen in der Bibliothek(Man sollte hin und her gehen zwischen den Folien von dem neuen Spiel und der Bibliothek(SpielAuswahl)).
+
+✍️ Heute habe ich... (50-100 Wörter)
+Heute bin ich mit dem Programmieren von TicTacToe fertig. Alles funktioniert wie ich es mir vorgestellt habe. (Die Punkte werden gezählt, man kann das Spiel neu anfangen und Reseten) Ich habe noch ein Bild von Google in die Wilkommensseite hinzugefügt. Es ist ein GamersParadise Logo.
 ## 7.3: Kern-Funktionalität
+- [ ] Spielauswahlseite verschönern(Ein Bild von Google)
+- [ ] TicTacToe verschönern(Es sieht bisschen langweilig aus)(Mehr Farben)
+- [ ]  Neues Spiel(Snake Game) Hinzufügen in der Bibliothek(Man sollte hin und her gehen zwischen den Folien von dem neuen Spiel und der Bibliothek(SpielAuswahl)).
+- [ ]  Beim Snake Game sollte ein Score haben, Reset button und das man wieder Zurück gehen kann ins Spielmenü(Spielauswahl)
+
+
+
 
 ## 14.3: Architektur ausbauen
 

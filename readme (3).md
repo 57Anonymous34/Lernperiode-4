@@ -49,16 +49,20 @@ Heute bin ich mit dem Programmieren von TicTacToe fertig. Alles funktioniert wie
 Heute habe ich mit dem Snake-Game angefangen. Am Anfang lief alles ganz gut, und es gab keine Probleme. Doch als ich das Spiel gestartet habe, bewegte sich die Schlange nur nach links. Egal, welche Taste ich drücke, es passiert nichts. Ich kann nur zusehen, wie sich die Schlange nach links bewegt. Trotz der hilfe von ChatGPT konnte ich nicht das Problem beheben.
 ## 14.3: Architektur ausbauen
 - [ ] Die Schlange sollte sich bewegen können(Rechts,Links,Unten,Oben).
-- [ ] Die Frabe der Schlange sollte anders sein und nicht grünn(z.B. Blau)
-- [ ] Die Schlange sollte grösser sein.
-- [ ] HighScore und Score sollte angezeigt werden. 
-  
+- [x] Die Frabe der Schlange sollte anders sein und nicht grünn(z.B. Blau)
+- [x] Die Schlange sollte grösser sein.
+- [x] HighScore und Score sollte angezeigt werden.
 
-  
-
+✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich an meinem Snake-Spiel gearbeitet. Die Bewegung funktioniert noch nicht, aber ich konnte die Größe und Farbe der Schlange ändern. Ich habe mit ChatGPT versucht, das Problem zu lösen, aber es klappt noch nicht ganz.
 
 
 ## 21.3: Architektur ausbauen
+- [ ] Die Schlange sollte sich bewegen können(Rechts,Links,Unten,Oben).
+- [ ] TicTacToe(X sollte die Frabe Rot haben/ O sollte die Farbe Blau haben.
+- [ ] TicTacToe(das Anzeigen von einem Gewinner sollte verschönert werden, Es steht nur "X hat gewonnen", es sollte z.B. ein bild kommen wo sagt "X hat gewonnen mit einem Bild)--> das war nur ein schnelles Beispiel.
+- [ ] Beim Spielauswahlseite sollte es einen Button haben, was zu einer Seite führt die nichts hat.(Es sollte so wie ein Troll sein)
+
 
 ## 28.3: Auspolieren
 

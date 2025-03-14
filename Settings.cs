@@ -8,13 +8,14 @@ namespace SpielParadies
 {
     internal class Settings
     {
-        public static int Width { get; set; }
-        public static int Height { get; set; }
-        public static string directions;
+        public static int Width { get; set; } 
+        public static int Height { get; set; } 
+
+        public static string directions { get; set; }
         public Settings()
         {
-            Width = 16;
-            Height = 16;
+            Width = 27;
+            Height = 27;
             directions = "left";
         }
     }

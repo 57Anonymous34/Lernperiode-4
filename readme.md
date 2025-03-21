@@ -63,8 +63,15 @@ Heute habe ich an meinem Snake-Spiel gearbeitet. Die Bewegung funktioniert noch 
 - [ ] TicTacToe(das Anzeigen von einem Gewinner sollte verschönert werden, Es steht nur "X hat gewonnen", es sollte z.B. ein bild kommen wo sagt "X hat gewonnen mit einem Bild)--> das war nur ein schnelles Beispiel.
 - [ ] Beim Spielauswahlseite sollte es einen Button haben, was zu einer Seite führt die nichts hat.(Es sollte so wie ein Troll sein)
 
+✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich wieder versucht, das Problem mit der Schlange zu lösen. Trotz der Hilfe von ChatGPT konnte ich es nicht lösen. Ich habe sogar auf Google und YouTube nach Lösungen gesucht, aber leider nichts gefunden. Ich bin nicht zufrieden mit dem, was ich heute gemacht habe, weil ich es immer noch nicht richtig programmieren konnte.
+
 
 ## 28.3: Auspolieren
+- [ ] Prüfen, ob KeyIsDown überhaupt ausgeführt wird und die Richtung richtig gesetzt wird.
+- [ ] KeyIsDown mit Form2 verbinden.
+- [ ] Sicherstellen, dass GameTimerEvent() wirklich läuft.
+- [ ] Falls GameTimerEvent() läuft, aber die Schlange nur in eine Richtung geht, die Logik fixen.
 
 ## 4.4: Auspolieren & Abschluss
 

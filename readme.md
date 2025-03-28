@@ -68,10 +68,10 @@ Heute habe ich wieder versucht, das Problem mit der Schlange zu lösen. Trotz de
 
 
 ## 28.3: Auspolieren
-- [ ] Prüfen, ob KeyIsDown überhaupt ausgeführt wird und die Richtung richtig gesetzt wird.
-- [ ] KeyIsDown mit Form2 verbinden.
-- [ ] Sicherstellen, dass GameTimerEvent() wirklich läuft.
-- [ ] Falls GameTimerEvent() läuft, aber die Schlange nur in eine Richtung geht, die Logik fixen.
+- [x] Prüfen, ob KeyIsDown überhaupt ausgeführt wird und die Richtung richtig gesetzt wird.
+- [x] KeyIsDown mit Form2 verbinden.
+- [x] Sicherstellen, dass GameTimerEvent() wirklich läuft.
+- [x] Falls GameTimerEvent() läuft, aber die Schlange nur in eine Richtung geht, die Logik fixen.
 
 ## 4.4: Auspolieren & Abschluss
 

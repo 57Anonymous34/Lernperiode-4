@@ -16,7 +16,7 @@ namespace SpielParadies
         public SpielAuswahl(Form1 parent)
         {
             InitializeComponent();
-            label1.Text = "Welcome";
+            label1.Text = "Chose your Game";
             this.parent = parent;
         }
 
@@ -35,8 +35,13 @@ namespace SpielParadies
 
         private void button3_Click(object sender, EventArgs e)
         {
-            new Snake(this).Show();
+            new Form2(this).Show();
             this.Hide();
+        }
+
+        private void SpielAuswahl_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            parent.Show();
         }
     }
 }

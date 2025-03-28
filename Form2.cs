@@ -14,7 +14,7 @@ namespace SpielParadies
     public partial class Form2 : Form
     {
         private List<Circle> Snake = new List<Circle>();
-        private Circle food = new Circle();
+        private Circle food = new Circle ();
 
         int maxWidth;
         int maxHeight;
@@ -32,39 +32,41 @@ namespace SpielParadies
             InitializeComponent();
             this.parent = parent;
             this.KeyPreview = true;
-            new Settings();
-           
+            
+            this.KeyPreview = true; // Wichtig für Tasteneingabe
+            this.KeyDown += KeyIsDown; // Das VERBINDET die Tasten mit dem Code
+
 
         }
 
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
+            
 
-
-
-
-    
-            Console.WriteLine("Taste gedrückt: " + e.KeyCode); // Zeigt an, welche Taste erkannt wird
-
-            if (e.KeyCode == Keys.Left && Settings.directions != "right")
+            // Zusätzlich: WASD-Steuerung
+            if (e.KeyCode == Keys.A && Settings.directions != "right")
             {
                 Settings.directions = "left";
             }
-            else if (e.KeyCode == Keys.Right && Settings.directions != "left")
+            else if (e.KeyCode == Keys.D && Settings.directions != "left")
             {
                 Settings.directions = "right";
             }
-            else if (e.KeyCode == Keys.Up && Settings.directions != "down")
+            else if (e.KeyCode == Keys.W && Settings.directions != "down")
             {
                 Settings.directions = "up";
             }
-            else if (e.KeyCode == Keys.Down && Settings.directions != "up")
+            else if (e.KeyCode == Keys.S && Settings.directions != "up")
             {
                 Settings.directions = "down";
             }
 
-            Console.WriteLine("Neue Richtung: " + Settings.directions);
         }
+
+
+    
+            
+        
 
   
 
@@ -95,12 +97,15 @@ namespace SpielParadies
         private void StartGame(object sender, EventArgs e)
         {
             RestartGame();
-           
+            this.Focus(); // Das sorgt dafür, dass Tasten funktionieren
+            gameTimer.Enabled = true;
+            Settings.directions = "right"; // Startrichtu
+
         }
 
         private void GameTimerEvent(object sender, EventArgs e)
         {
-           
+            Console.WriteLine($"Kopf: {Snake[0].X},{Snake[0].Y} | Apfel: {food.X},{food.Y}");
 
             // end of directions
             for (int i = Snake.Count - 1; i >= 0; i--)
@@ -143,9 +148,10 @@ namespace SpielParadies
                     }
                     
 
-                    if (Snake[i].X == food.X && Snake[i].Y == food.Y)
+                    if (Snake[0].X == food.X && Snake[0].Y == food.Y)
                     {
                         EatFood();
+                        
                     }
 
                     for (int j = 1; j < Snake.Count; j++)
@@ -174,11 +180,11 @@ namespace SpielParadies
             {
                 if (i == 0)
                 {
-                    snakeColour = Brushes.Black;
+                    snakeColour = Brushes.Red;
                 }
                 else
                 {
-                    snakeColour = Brushes.DarkGreen;
+                    snakeColour = Brushes.Pink;
                 }
                 canvas.FillEllipse(snakeColour, new Rectangle
                     (
@@ -205,16 +211,20 @@ namespace SpielParadies
             maxHeight = picCanvas.Height / Settings.Height - 1;
             Snake.Clear();
             startButton.Enabled = false;
+            gameTimer.Interval = 120;
 
             score = 0;
             txtScore.Text = "Score: " + score;
             Circle head = new Circle { X = 10, Y = 5 };
             Snake.Add(head); // adding the head part of the snake to the list
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 5; i++) // z. B. 2 Körperteile
             {
-                Circle body = new Circle();
-                Snake.Add(body);
+                Snake.Add(new Circle
+                {
+                    X = Snake[0].X,
+                    Y = Snake[0].Y
+                });
             }
             food = new Circle { X = rand.Next(2, maxWidth), Y = rand.Next(2, maxHeight) };
             gameTimer.Start();
@@ -226,14 +236,36 @@ namespace SpielParadies
             score += 1;
             txtScore.Text = "Score: " + score;
 
+            // Neuen Schlangenteil hinten anhängen
             Circle body = new Circle
             {
                 X = Snake[Snake.Count - 1].X,
                 Y = Snake[Snake.Count - 1].Y
             };
-
             Snake.Add(body);
-            food = new Circle { X = rand.Next(2, maxWidth), Y = rand.Next(2, maxHeight) };
+
+            // Neues Futter setzen – aber NICHT auf der Schlange
+            bool validFood = false;
+            while (!validFood)
+            {
+                food = new Circle
+                {
+                    X = rand.Next(2, maxWidth),
+                    Y = rand.Next(2, maxHeight)
+                };
+
+                validFood = true;
+
+                foreach (var part in Snake)
+                {
+                    if (part.X == food.X && part.Y == food.Y)
+                    {
+                        validFood = false;
+                        break;
+                    }
+                }
+            }
+
         }
 
         private void GameOver()
@@ -255,5 +287,14 @@ namespace SpielParadies
             this.Close();
             parent.Show();
         }
+
+
+        public static class Settings
+        {
+            public static int Width { get; set; } = 25;
+            public static int Height { get; set; } = 25;
+            public static string directions { get; set; } = "left";
+        }
+
     }
 }

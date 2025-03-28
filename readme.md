@@ -73,5 +73,12 @@ Heute habe ich wieder versucht, das Problem mit der Schlange zu lösen. Trotz de
 - [x] Sicherstellen, dass GameTimerEvent() wirklich läuft.
 - [x] Falls GameTimerEvent() läuft, aber die Schlange nur in eine Richtung geht, die Logik fixen.
 
+✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich endlich den Fehler im Snake-Game beheben können. Die Schlange bewegt sich jetzt in alle Richtungen, so wie ich es mir gewünscht hatte. Außerdem habe ich mein Tic-Tac-Toe-Spiel verschönert: Wenn der Spieler X ein X setzt, wird der Hintergrund rot – beim Spieler O wird der Hintergrund blau. Auch das Spielmenü habe ich überarbeitet und einen passenden Spielehintergrund hinzugefügt.
+
 ## 4.4: Auspolieren & Abschluss
+- [ ] Snake Entwurf verschönern (mehr Farben)
+- [ ] Erste Folie ändern ( Das Bild gefällt mit nicht)
+
+
 

@@ -1,6 +1,8 @@
 # Lern-Periode 4
 
 14.2 bis 4.4
+
+
 In dieser Lernperiode habe ich ein Game-Paradies gemacht. Ich habe das Thema gewählt, weil ich in meiner Freizeit gerne Games spiele. In meinem Projekt habe ich zwei Spiele eingebaut: Snake und TicTacToe. Es gibt eine Seite, wo man auswählen kann, welches Spiel man spielen möchte.
 
 ## Grob-Planung

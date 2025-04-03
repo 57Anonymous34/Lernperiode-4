@@ -175,6 +175,8 @@ namespace SpielParadies
         {
             Graphics canvas = e.Graphics;
             Brush snakeColour;
+           
+
 
             for (int i = 0; i < Snake.Count; i++)
             {

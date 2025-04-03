@@ -1,6 +1,7 @@
 # Lern-Periode 4
 
 14.2 bis 4.4
+In dieser Lernperiode habe ich ein Game-Paradies gemacht. Ich habe das Thema gewählt, weil ich in meiner Freizeit gerne Games spiele. In meinem Projekt habe ich zwei Spiele eingebaut: Snake und TicTacToe. Es gibt eine Seite, wo man auswählen kann, welches Spiel man spielen möchte.
 
 ## Grob-Planung
 
@@ -77,8 +78,30 @@ Heute habe ich wieder versucht, das Problem mit der Schlange zu lösen. Trotz de
 Heute habe ich endlich den Fehler im Snake-Game beheben können. Die Schlange bewegt sich jetzt in alle Richtungen, so wie ich es mir gewünscht hatte. Außerdem habe ich mein Tic-Tac-Toe-Spiel verschönert: Wenn der Spieler X ein X setzt, wird der Hintergrund rot – beim Spieler O wird der Hintergrund blau. Auch das Spielmenü habe ich überarbeitet und einen passenden Spielehintergrund hinzugefügt.
 
 ## 4.4: Auspolieren & Abschluss
-- [ ] Snake Entwurf verschönern (mehr Farben)
-- [ ] Erste Folie ändern ( Das Bild gefällt mit nicht)
+- [x] Snake Entwurf verschönern (mehr Farben)
+- [x] Erste Folie ändern ( Das Bild gefällt mit nicht)
+
+✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich noch die letzen Arbeitspakete von diesee Lernperiode erledigt und bin somit mit meinem Projekt fertig und auch sehr zufrieden.
+
+## Mein Projekt:
+
+In dieser Lernperiode habe ich an meinem eigenen Projekt gearbeitet. Am Anfang wollte ich ein Schachspiel machen, aber das war viel zu schwierig. Dann habe ich es mit „Mensch ärgere dich nicht“ probiert, aber das war auch zu kompliziert. Also habe ich mich entschieden, ein Game-Paradies zu machen. Das ist ein Programm, bei dem man Spiele wie TicTacToe oder Snake auswählen kann.
+
+Ich habe zuerst TicTacToe programmiert. Dort funktioniert alles: Man kann Punkte sammeln, es wird angezeigt, wer gewonnen hat, und X ist rot und O ist blau. Danach habe ich mit dem Snake-Spiel angefangen. Am Anfang war das schwierig, weil sich die Schlange nur nach links bewegt hat. Ich habe lange nach dem Fehler gesucht und ChatGPT hat mir geholfen. Jetzt funktioniert es richtig – die Schlange kann sich in alle Richtungen bewegen, es gibt Punkte und einen Highscore.
+
+Zum Schluss habe ich noch die Startseite schöner gemacht und alles etwas angepasst. Ich bin zufrieden mit meinem Projekt.
+
+
+## Ergebnis:
+
+
+
+
+https://github.com/user-attachments/assets/06e0c3bc-fe61-4e7b-a784-20b7fa0b0196
+
+
+
 
 
 

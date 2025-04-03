@@ -40,6 +40,7 @@
             // 
             // startButton
             // 
+            startButton.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             startButton.Location = new Point(598, 40);
             startButton.Name = "startButton";
             startButton.Size = new Size(119, 84);
@@ -50,10 +51,10 @@
             // 
             // picCanvas
             // 
-            picCanvas.BackColor = SystemColors.ControlDark;
-            picCanvas.Location = new Point(1, 13);
+            picCanvas.BackColor = SystemColors.ButtonHighlight;
+            picCanvas.Location = new Point(1, 1);
             picCanvas.Name = "picCanvas";
-            picCanvas.Size = new Size(580, 680);
+            picCanvas.Size = new Size(580, 692);
             picCanvas.TabIndex = 1;
             picCanvas.TabStop = false;
             picCanvas.Paint += UpdatePictureBoxGraphics;
@@ -61,18 +62,20 @@
             // txtScore
             // 
             txtScore.AutoSize = true;
+            txtScore.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtScore.Location = new Point(604, 181);
             txtScore.Name = "txtScore";
-            txtScore.Size = new Size(98, 32);
+            txtScore.Size = new Size(105, 32);
             txtScore.TabIndex = 2;
             txtScore.Text = "Score: 0";
             // 
             // txtHighScore
             // 
             txtHighScore.AutoSize = true;
-            txtHighScore.Location = new Point(604, 236);
+            txtHighScore.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtHighScore.Location = new Point(595, 236);
             txtHighScore.Name = "txtHighScore";
-            txtHighScore.Size = new Size(131, 32);
+            txtHighScore.Size = new Size(138, 32);
             txtHighScore.TabIndex = 3;
             txtHighScore.Text = "High Score";
             // 
@@ -83,6 +86,7 @@
             // 
             // button1
             // 
+            button1.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             button1.Location = new Point(585, 635);
             button1.Name = "button1";
             button1.Size = new Size(150, 46);
@@ -95,6 +99,7 @@
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Silver;
             ClientSize = new Size(738, 693);
             Controls.Add(button1);
             Controls.Add(txtHighScore);

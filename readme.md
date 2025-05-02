@@ -14,7 +14,7 @@ In dieser Lernperiode habe ich ein Game-Paradies gemacht. Ich habe das Thema gew
 
 ## 14.2: Explorativer Wegwerf-Prototyp
 
-- [ ] ...Projektplannung
+- [x] ...Projektplannung
 - [X] ...Von einer Folie zu einer anderen Folie vechseln und wieder zurück
 
 ✍️ Heute habe ich... (50-100 Wörter)
@@ -43,8 +43,8 @@ Heute habe ich Weiter an meinem Projekt gearbeitet. Ich weiss was für Spiele ic
 ✍️ Heute habe ich... (50-100 Wörter)
 Heute bin ich mit dem Programmieren von TicTacToe fertig. Alles funktioniert wie ich es mir vorgestellt habe. (Die Punkte werden gezählt, man kann das Spiel neu anfangen und Reseten) Ich habe noch ein Bild von Google in die Wilkommensseite hinzugefügt. Es ist ein GamersParadise Logo.
 ## 7.3: Kern-Funktionalität
-- [ ] Spielauswahlseite verschönern(Ein Bild von Google)
-- [ ] TicTacToe verschönern(Es sieht bisschen langweilig aus)(Mehr Farben)
+- [x] Spielauswahlseite verschönern(Ein Bild von Google)
+- [x] TicTacToe verschönern(Es sieht bisschen langweilig aus)(Mehr Farben)
 - [x]  Neues Spiel(Snake Game) Hinzufügen in der Bibliothek(Man sollte hin und her gehen zwischen den Folien von dem neuen Spiel und der Bibliothek(SpielAuswahl)).
 - [x]  Beim Snake Game sollte ein Score haben, Reset button und das man wieder Zurück gehen kann ins Spielmenü(Spielauswahl)
       
@@ -62,7 +62,7 @@ Heute habe ich an meinem Snake-Spiel gearbeitet. Die Bewegung funktioniert noch 
 
 ## 21.3: Architektur ausbauen
 - [ ] Die Schlange sollte sich bewegen können(Rechts,Links,Unten,Oben).
-- [ ] TicTacToe(X sollte die Frabe Rot haben/ O sollte die Farbe Blau haben.
+- [x] TicTacToe(X sollte die Frabe Rot haben/ O sollte die Farbe Blau haben.
 - [ ] TicTacToe(das Anzeigen von einem Gewinner sollte verschönert werden, Es steht nur "X hat gewonnen", es sollte z.B. ein bild kommen wo sagt "X hat gewonnen mit einem Bild)--> das war nur ein schnelles Beispiel.
 - [ ] Beim Spielauswahlseite sollte es einen Button haben, was zu einer Seite führt die nichts hat.(Es sollte so wie ein Troll sein)
 
